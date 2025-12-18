@@ -53,9 +53,9 @@ export default function Home() {
             >
               Бүртгэлтэй хаяг оруулах
             </DialogTitle>
-            <DialogDescription className="text-left text-neutral-400 mt-3">
-              Анхааруулга : Оруулсан цахим хаяг заавал ORI дээр бүртгэлтэй хаяг
-              байна.
+            <DialogDescription className="text-left text-neutral-300 font-extrabold mt-3">
+              <span className="text-[#FFCC00]">Анхааруулга:</span> Оруулсан
+              цахим хаяг заавал ORI апп дээр бүртгэлтэй хаяг байна.
             </DialogDescription>
           </DialogHeader>
           <div className="flex flex-col gap-4 mt-2">
@@ -75,7 +75,7 @@ export default function Home() {
             </DialogClose>
             <DialogClose asChild>
               <button className="px-5 py-3 rounded-lg font-semibold bg-gray-800 text-white">
-                Оруулах
+                Төлөх
               </button>
             </DialogClose>
           </DialogFooter>
